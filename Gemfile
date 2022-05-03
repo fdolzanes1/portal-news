@@ -54,7 +54,7 @@ end
 
 group :production do
   # Use postgresql as the database for Active Record
-  # gem 'pg', '~> 1.1'
+  gem 'pg', '~> 1.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
